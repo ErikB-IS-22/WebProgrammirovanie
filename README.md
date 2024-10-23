@@ -1,8 +1,31 @@
 Лабораторная работа №1
 
 1. Поменяйте цветовую палитру калькулятора с оранжево-серой на любую другую
-background: rgb(117, 117, 117); /* смена цвета кнопки */
+Для смены цвета кнопок на селекторах кнопок .my-btn, .my-btn.primary и .my-btn.secondary был применён параметр background:
 
+.my-btn { 
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.8em;
+    border-radius: 0%;        
+    border: none;
+    background: rgb(117, 117, 117);
+    color: #000000;
+    cursor: pointer;
+    user-select: none;
+} 
+
+.my-btn.primary { 
+    background: #a0a0a0;
+}
+  
+.my-btn.secondary { 
+    background: #656fca;
+}
+
+
+  
 <!DOCTYPE html>
 <html lang="ru">
 
