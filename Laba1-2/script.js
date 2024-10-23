@@ -174,9 +174,7 @@ window.onload = function(){
     }
     
     a = expressionResult.toString()
-    //b = ''
-    //selectedOperation = null
-  
+    
     outputElement.innerHTML = a
   }
   
